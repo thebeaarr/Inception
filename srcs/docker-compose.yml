@@ -144,7 +144,7 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: ${PROJECT_ROOT}/Inception/srcs/requirements/bonus/static_website
+      device: ${PROJECT_ROOT}/${REPO_NAME}/srcs/requirements/bonus/static_website
       o: bind
 
 networks:
